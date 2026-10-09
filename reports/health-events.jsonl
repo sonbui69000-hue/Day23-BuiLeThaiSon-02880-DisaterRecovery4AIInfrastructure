@@ -1,0 +1,1 @@
+{"event": "state_change", "ts": 1791515464.9138486, "region": "a", "to": "UNHEALTHY", "reason": "timeout", "interval_s": 5.0, "threshold": 3, "consecutive_fails": 3}

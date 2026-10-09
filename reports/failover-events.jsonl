@@ -1,0 +1,49 @@
+{"ts": 1791513817.7506301, "iso": "2026-10-09T02:43:37Z", "step": "1_verify_target", "target": "b"}
+{"ts": 1791513817.751297, "iso": "2026-10-09T02:43:37Z", "step": "2_restore_snapshot", "target": "b", "rpo_seconds": null, "docs_lost": null, "embed_model_version": "test"}
+{"ts": 1791513817.7513833, "iso": "2026-10-09T02:43:37Z", "step": "3_scale_pool", "target": "b"}
+{"ts": 1791513818.7518556, "iso": "2026-10-09T02:43:38Z", "step": "4_wait_ready", "target": "b", "ok": false, "reason": "ConnectError: mocked: target khong bao gio ready"}
+{"ts": 1791513975.7431746, "iso": "2026-10-09T02:46:15Z", "step": "1_verify_target", "target": "b"}
+{"ts": 1791513975.7486734, "iso": "2026-10-09T02:46:15Z", "step": "2_restore_snapshot", "target": "b", "rpo_seconds": 26.0, "docs_lost": 13, "embed_model_version": "embed-model=vi-e5-base@v3"}
+{"ts": 1791513975.7488813, "iso": "2026-10-09T02:46:15Z", "step": "3_scale_pool", "target": "b"}
+{"ts": 1791513975.7619429, "iso": "2026-10-09T02:46:15Z", "step": "4_wait_ready", "target": "b", "ok": true, "reason": "ready"}
+{"ts": 1791513975.7621264, "iso": "2026-10-09T02:46:15Z", "step": "5_dns_cutover", "target": "b"}
+{"ts": 1791514575.1117156, "iso": "2026-10-09T02:56:15Z", "step": "1_verify_target", "target": "b"}
+{"ts": 1791514575.1146495, "iso": "2026-10-09T02:56:15Z", "step": "2_restore_snapshot", "target": "b", "rpo_seconds": 12.0, "docs_lost": 6, "embed_model_version": "embed-model=vi-e5-base@v3"}
+{"ts": 1791514575.1147735, "iso": "2026-10-09T02:56:15Z", "step": "3_scale_pool", "target": "b"}
+{"ts": 1791514575.1246672, "iso": "2026-10-09T02:56:15Z", "step": "4_wait_ready", "target": "b", "ok": true, "reason": "ready"}
+{"ts": 1791514575.1247892, "iso": "2026-10-09T02:56:15Z", "step": "5_dns_cutover", "target": "b"}
+{"ts": 1791514825.5597322, "iso": "2026-10-09T03:00:25Z", "step": "1_verify_target", "target": "b"}
+{"ts": 1791514825.5935588, "iso": "2026-10-09T03:00:25Z", "step": "2_restore_snapshot", "target": "b", "rpo_seconds": 28.0, "docs_lost": 14, "embed_model_version": "embed-model=vi-e5-base@v3"}
+{"ts": 1791514825.593715, "iso": "2026-10-09T03:00:25Z", "step": "3_scale_pool", "target": "b"}
+{"ts": 1791514825.6039383, "iso": "2026-10-09T03:00:25Z", "step": "4_wait_ready", "target": "b", "ok": true, "reason": "ready"}
+{"ts": 1791514825.6040995, "iso": "2026-10-09T03:00:25Z", "step": "5_dns_cutover", "target": "b"}
+{"ts": 1791515069.4424236, "iso": "2026-10-09T03:04:29Z", "step": "1_verify_target", "target": "b"}
+{"ts": 1791515069.47568, "iso": "2026-10-09T03:04:29Z", "step": "2_restore_snapshot", "target": "b", "rpo_seconds": 12.0, "docs_lost": 6, "embed_model_version": "embed-model=vi-e5-base@v3"}
+{"ts": 1791515069.4759707, "iso": "2026-10-09T03:04:29Z", "step": "3_scale_pool", "target": "b"}
+{"ts": 1791515069.4975953, "iso": "2026-10-09T03:04:29Z", "step": "4_wait_ready", "target": "b", "ok": true, "reason": "ready"}
+{"ts": 1791515069.4978323, "iso": "2026-10-09T03:04:29Z", "step": "5_dns_cutover", "target": "b"}
+{"ts": 1791515263.2074227, "iso": "2026-10-09T03:07:43Z", "step": "1_verify_target", "target": "b"}
+{"ts": 1791515263.2101264, "iso": "2026-10-09T03:07:43Z", "step": "2_restore_snapshot", "target": "b", "rpo_seconds": 88.01, "docs_lost": 44, "embed_model_version": "test"}
+{"ts": 1791515263.2105706, "iso": "2026-10-09T03:07:43Z", "step": "3_scale_pool", "target": "b"}
+{"ts": 1791515264.2116263, "iso": "2026-10-09T03:07:44Z", "step": "4_wait_ready", "target": "b", "ok": false, "reason": "ConnectError: mocked: target khong bao gio ready"}
+{"ts": 1791515482.8204155, "iso": "2026-10-09T03:11:22Z", "step": "1_verify_target", "target": "b"}
+{"ts": 1791515482.8710184, "iso": "2026-10-09T03:11:22Z", "step": "2_restore_snapshot", "target": "b", "rpo_seconds": 22.0, "docs_lost": 11, "embed_model_version": "embed-model=vi-e5-base@v3"}
+{"ts": 1791515482.8714502, "iso": "2026-10-09T03:11:22Z", "step": "3_scale_pool", "target": "b"}
+{"ts": 1791515482.901008, "iso": "2026-10-09T03:11:22Z", "step": "4_wait_ready", "target": "b", "ok": true, "reason": "ready"}
+{"ts": 1791515482.9013476, "iso": "2026-10-09T03:11:22Z", "step": "5_dns_cutover", "target": "b"}
+{"ts": 1791515530.0903518, "iso": "2026-10-09T03:12:10Z", "step": "1_verify_target", "target": "b"}
+{"ts": 1791515530.0931964, "iso": "2026-10-09T03:12:10Z", "step": "2_restore_snapshot", "target": "b", "rpo_seconds": 68.0, "docs_lost": 34, "embed_model_version": "test"}
+{"ts": 1791515530.0937185, "iso": "2026-10-09T03:12:10Z", "step": "3_scale_pool", "target": "b"}
+{"ts": 1791515531.094703, "iso": "2026-10-09T03:12:11Z", "step": "4_wait_ready", "target": "b", "ok": false, "reason": "ConnectError: mocked: target khong bao gio ready"}
+{"ts": 1791515556.0676806, "iso": "2026-10-09T03:12:36Z", "step": "1_verify_target", "target": "b"}
+{"ts": 1791515556.0701883, "iso": "2026-10-09T03:12:36Z", "step": "2_restore_snapshot", "target": "b", "rpo_seconds": 88.01, "docs_lost": 44, "embed_model_version": "test"}
+{"ts": 1791515556.070558, "iso": "2026-10-09T03:12:36Z", "step": "3_scale_pool", "target": "b"}
+{"ts": 1791515557.0716958, "iso": "2026-10-09T03:12:37Z", "step": "4_wait_ready", "target": "b", "ok": false, "reason": "ConnectError: mocked: target khong bao gio ready"}
+{"ts": 1791515587.1249588, "iso": "2026-10-09T03:13:07Z", "step": "1_verify_target", "target": "b"}
+{"ts": 1791515587.127502, "iso": "2026-10-09T03:13:07Z", "step": "2_restore_snapshot", "target": "b", "rpo_seconds": 88.01, "docs_lost": 44, "embed_model_version": "test"}
+{"ts": 1791515587.1280103, "iso": "2026-10-09T03:13:07Z", "step": "3_scale_pool", "target": "b"}
+{"ts": 1791515588.1291242, "iso": "2026-10-09T03:13:08Z", "step": "4_wait_ready", "target": "b", "ok": false, "reason": "ConnectError: mocked: target khong bao gio ready"}
+{"ts": 1791515665.5417826, "iso": "2026-10-09T03:14:25Z", "step": "1_verify_target", "target": "b"}
+{"ts": 1791515665.5426247, "iso": "2026-10-09T03:14:25Z", "step": "2_restore_snapshot", "target": "b", "rpo_seconds": 88.01, "docs_lost": 44, "embed_model_version": "test"}
+{"ts": 1791515665.5427375, "iso": "2026-10-09T03:14:25Z", "step": "3_scale_pool", "target": "b"}
+{"ts": 1791515666.543273, "iso": "2026-10-09T03:14:26Z", "step": "4_wait_ready", "target": "b", "ok": false, "reason": "ConnectError: mocked: target khong bao gio ready"}
